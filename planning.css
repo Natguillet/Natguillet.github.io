@@ -3527,18 +3527,12 @@ mark {
     --cd-color-event-2-h: 271;
     --cd-color-event-2-s: 23%;
     --cd-color-event-2-l: 26%;
-    --cd-color-event-3: hsl(162, 14%, 68%);
-    --cd-color-event-3-h: 162;
-    --cd-color-event-3-s: 14%;
-    --cd-color-event-3-l: 68%;
+    --cd-color-event-3: linear-gradient(180deg, rgba(255, 115, 0, 1) 50%, rgba(146, 165, 254, 0) 100%);
     --cd-color-event-4: hsl(31, 89%, 68%);
     --cd-color-event-4-h: 31;
     --cd-color-event-4-s: 89%;
     --cd-color-event-4-l: 68%;
-    --cd-color-event-5: hsl(12, 100%, 50%);
-    --cd-color-event-5-h: 12;
-    --cd-color-event-5-s: 100%;
-    --cd-color-event-5-l: 50%;
+    --cd-color-event-5: linear-gradient(180deg, rgba(255, 134, 145, 1) 50%, rgba(146, 165, 254, 0) 100%);
     --cd-color-event-6: hsl(194, 71%, 46%);
     --cd-color-event-6-h: 194;
     --cd-color-event-6-s: 71%;
@@ -3868,7 +3862,7 @@ a {
 
 .cd-schedule__event [data-event="WoW"],
 .cd-schedule-modal[data-event="WoW"] .cd-schedule-modal__header-bg {
-    background: hsl(162, 14%, 68%);
+    background: linear-gradient(180deg, rgba(255, 115, 0, 1) 50%, rgba(255, 171, 0, 0) 100%);
     background: var(--cd-color-event-3)
 }
 
@@ -3880,12 +3874,12 @@ a {
 
 .cd-schedule__event [data-event="Survie"],
 .cd-schedule-modal[data-event="Survie"] .cd-schedule-modal__header-bg {
-    background: hsl(12, 100%, 50%);
+    background: linear-gradient(180deg, rgba(255, 134, 145, 1) 50%, rgba(255, 255, 255, 0) 100%);
     background: var(--cd-color-event-5)
 }
 
-.cd-schedule__event [data-event="event-6"],
-.cd-schedule-modal[data-event="event-6"] .cd-schedule-modal__header-bg {
+.cd-schedule__event [data-event="Découverte jeux"],
+.cd-schedule-modal[data-event="Découverte jeux"] .cd-schedule-modal__header-bg {
     background: hsl(194, 71%, 46%);
     background: var(--cd-color-event-6)
 }

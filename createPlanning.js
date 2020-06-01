@@ -39,6 +39,7 @@ function createEvent() {
                     var scheduleEvent = document.createElement('li');
                     scheduleEvent.setAttribute('class', 'cd-schedule__event');
                     var eventInfo = document.createElement('a');
+                    eventInfo.setAttribute('class', 'data-event');
                     eventInfo.setAttribute('data-start', event.begin);
                     eventInfo.setAttribute('data-end', event.end);
                     eventInfo.setAttribute('data-event', event.eventName);
@@ -63,9 +64,11 @@ function updateHours(event) {
     var n = date.getTimezoneOffset();
     var utc = n / 60;
     var realHoursBegin = parseInt(event.begin[0] + event.begin[1]);
-    var realHoursEnd = parseInt(event.end[0] + event.end[1]);
     event.begin = realHoursBegin + 4 - utc + event.begin.substring(2, event.begin.length);
-    event.end = realHoursEnd + 4 - utc + event.end.substring(2, event.begin.length);
+    if (event.end[0] != ".") {
+        var realHoursEnd = parseInt(event.end[0] + event.end[1]);
+        event.end = realHoursEnd + 4 - utc + event.end.substring(2, event.begin.length);
+    }
 }
 
 createTimeIndication();

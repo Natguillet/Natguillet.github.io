@@ -71,6 +71,14 @@ loadPlanning = function() {
             var start = getScheduleTimestamp(anchor.getAttribute('data-start')),
                 duration = getScheduleTimestamp(anchor.getAttribute('data-end')) - start;
 
+            if (!duration) {
+                duration = 240;
+                this.singleEvents[i].getElementsByClassName('data-event')[0].setAttribute('style', 'box-shadow: none');
+            }
+
+            if (duration == 30) {
+                this.singleEvents[i].getElementsByClassName('data-event')[0].setAttribute('style', 'padding-top: 5px');
+            }
             var eventTop = slotHeight * (start - self.timelineStart) / self.timelineUnitDuration,
                 eventHeight = slotHeight * duration / self.timelineUnitDuration;
 
