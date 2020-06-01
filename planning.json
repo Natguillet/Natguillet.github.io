@@ -1,0 +1,88 @@
+{
+    "lundi": [],
+    "mardi": [{
+            "begin": "10:30",
+            "end": "12:30",
+            "eventName": "Gestion"
+        },
+        {
+            "begin": "12:30",
+            "end": "13:00",
+            "eventName": "Repas"
+        },
+        {
+            "begin": "13:00",
+            "end": "..:..",
+            "eventName": "WoW"
+        }
+    ],
+    "mercredi": [{
+            "begin": "10:30",
+            "end": "12:30",
+            "eventName": "Art"
+        },
+        {
+            "begin": "12:30",
+            "end": "13:00",
+            "eventName": "Repas"
+        },
+        {
+            "begin": "13:00",
+            "end": "..:..",
+            "eventName": "WoW"
+        }
+    ],
+    "jeudi": [{
+            "begin": "10:30",
+            "end": "12:30",
+            "eventName": "Découverte jeux"
+        },
+        {
+            "begin": "12:30",
+            "end": "13:00",
+            "eventName": "Repas"
+        },
+        {
+            "begin": "13:00",
+            "end": "..:..",
+            "eventName": "WoW"
+        }
+    ],
+    "vendredi": [{
+            "begin": "10:30",
+            "end": "12:30",
+            "eventName": "Gestion"
+        },
+        {
+            "begin": "12:30",
+            "end": "13:00",
+            "eventName": "Repas"
+        },
+        {
+            "begin": "13:00",
+            "end": "..:..",
+            "eventName": "WoW"
+        }
+    ],
+    "samedi": [{
+            "begin": "10:30",
+            "end": "12:30",
+            "eventName": "Gestion"
+        },
+        {
+            "begin": "12:30",
+            "end": "13:00",
+            "eventName": "Repas"
+        },
+        {
+            "begin": "13:00",
+            "end": "..:..",
+            "eventName": "WoW"
+        }
+    ],
+    "dimanche": [{
+        "begin": "10:30",
+        "end": "..:..",
+        "eventName": "Survie"
+    }]
+}
